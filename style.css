@@ -1,0 +1,652 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "uber-wolf";
+    src: url(fonts/ubereats.woff2);
+}
+@font-face {
+    font-family: "uber-move";
+    src: url(fonts/ubereats\ small.woff2);
+}
+
+.main-banner{
+    background-image: url(images/uber\ eats.webp);
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*----------------------------NAVBAR-SECTION---------------------------*/
+
+.main-navbar{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    padding: 0px 16px;
+    top: 1%;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.uber-logo img{
+    height: 16px;
+}
+
+.profile{
+    display: flex;
+    width: 36px;
+    height: 36px;
+    background-color: #ffff;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    border-radius: 50px;
+}
+.profile img{
+    height: 16px;
+  
+}
+.three-lines{
+    margin-right: 18px;
+    margin-left: -2px;
+}
+
+.sign-up{
+   display: flex;
+   align-items: center;
+   text-align: center;
+   min-height: 36px;
+   background-color: black;
+   border-radius: 500px;
+}
+.sign-up p{
+    font-size: 14px;
+    font-family: uber-move;
+    color: #ffff;
+    padding: 8px 12px;
+    font-weight: 600;
+    line-height: 16px;
+    
+    
+}
+
+/*----------------------------------------ORDER-SECTION------------------------------*/
+
+.order-section{
+    padding: 0px 16px;
+    margin-top: 105px;
+    
+    
+}
+.order-txt{
+    margin-bottom: 24px;
+}
+.main-delivery{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.delivery-address{
+    background-color: #ffff;
+    padding-left: 4px;
+}
+.order-txt h2{
+    font-size: 36px;
+    font-family: uber-wolf;
+    line-height: 44px;
+}
+.delivery-address{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    min-height: 56px;
+}
+.location{
+    margin: 12px;
+}
+
+.deliver{
+    background-color: #ffff;
+    padding-left: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    min-height: 56px;
+}
+.deliver-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.deliver-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    
+}
+.timer{
+    margin: 12px;
+}
+.search-here{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 8px;
+    min-height: 56px;
+   
+}
+.search-here p{
+    padding: 12px 16px;
+    color: white;
+}
+.delivery-txt p{
+    font-size: 16px;
+    font-family: uber-move;
+}
+.deliver-txt p{
+    font-size: 16px;
+    font-family: uber-move;
+    font-weight: 590;
+    line-height: 20px;
+    
+}
+.search-here p{
+    font-size: 18px;
+    font-family: uber-move;
+}
+.sign-in{
+    margin-top: 24px;
+}
+.sign-in p{
+    font-size: 14px;
+    font-family: uber-move;
+    color: black;
+    line-height: 16px;
+    font-family: 500;
+    
+    
+}
+/*----------------------------------MIDDLE-SECTION----------------------------------------*/
+
+.uber-heading{
+    display: flex;
+    padding:  16px 16px 0px 16px;
+    margin: 0px 0px 16px;
+    align-items: center;
+    gap: 15px;
+}
+
+.ubers-logo img{
+    width: 64px;
+    height: 64px;
+}
+.heading-txt{
+    font-size: 24px;
+    font-family: uber-wolf;
+    font-weight: 700;
+    line-height: 28px;
+}
+.empty-div{
+    height: 32px;
+}
+
+.get-app{
+    margin: 0px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    gap: 6px;
+}
+
+.get-txt p{
+    font-size: 18px;
+    font-family: uber-move;
+}
+
+/*-----------------------------------------IMAGE-SECTION------------------------------------*/
+.main-image-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.simple{
+    height: 48px;
+}
+.images{
+    width: 100%;
+    margin-bottom: 4px;
+}
+.images img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.image-section{
+   margin: 0px 16px;
+   display: flex;
+   flex-direction: column;
+   
+}
+.feed-txt h2{
+    font-size: 24px;
+    font-family: uber-wolf;
+    font-weight: 700;
+    line-height: 32px;
+    color: black;
+}
+.create-txt p{
+    font-size: 18px;
+    font-family: uber-move;
+    margin-top: 8px;
+    text-decoration: underline;
+    line-height: 24px;
+    font-weight: 500;
+}
+.image-empty{
+    height: 36px;
+}
+.resturants-image img{
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 4px;
+}
+
+/*----------------------------------------MAP-SECTION---------------------------------*/
+
+.empty-map{
+    height: 48px;
+}
+.cities-txt{
+    padding: 0px 16px;
+}
+.cities-txt h2{
+    font-size: 24px;
+    font-family: uber-wolf;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.map-section img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.map-section{
+    padding: 16px;
+}
+.town-section{
+    padding: 0px 16px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 16px 8px;
+    white-space: nowrap;
+}
+.town-txt p{
+    font-size: 16px;
+    font-family: uber-move;
+    line-height: 24px;
+}
+.town-txt h2{
+    font-size: 16px;
+    font-family: uber-move;
+    line-height: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.empty-country{
+    height: 48px;
+}
+.country-section{
+    padding: 0px 16px;
+}
+.country-txt p{
+    font-size: 24px;
+    font-family: uber-wolf;
+    line-height: 32px;
+    font-weight: 700;
+}
+.countries{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px 8px;
+    margin-top: 24px;
+    white-space: nowrap;
+}
+.countries-name p{
+    font-size: 16px;
+    font-family: uber-move;
+    line-height: 24px;
+}
+.countries-name h2{
+    font-size: 16px;
+    font-family: uber-move;
+    line-height: 24px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/*--------------------------------FOOTER-SECTION----------------------------*/
+
+.footer-section{
+    margin: 64px 0px 0px;
+    padding: 64px 18px 80px;
+}
+.uber-eats-logo img{
+    margin-bottom: 48px;
+}
+.appstore-logo{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-bottom: 64px;
+}
+.get-help{
+    margin-bottom: 64px;
+}
+.get-help p{
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: uber-move;
+
+}
+.resturants-near{
+    margin-bottom: 104px;
+}
+.resturants-near p{
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: uber-move;
+
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+.privacy-policy{
+    margin-bottom: 40px;
+}
+.privacy-policy p{
+    font-size: 14px;
+    margin-bottom: 16px;
+    line-height: 20px;
+    font-family: uber-move;
+}
+.desk-main-banner{
+    display: none;
+}
+
+
+/*-----------------------MEDIA-QUERY--------------------------*/
+
+@media  screen and (min-width:1024px) {
+    .main-banner{
+        display: none;
+    }
+    .desk-main-banner{
+        display: flex;
+        background-image: url(images/ubereats-desktop.webp);
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .desk-navbar{
+        position: absolute;
+        top: 3%;
+        padding-right: 40px;
+        padding-left: 40px;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        margin-top: -4px;
+    }
+    .desk-nav-left{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+    }
+    .desk-nav-right{
+        display: flex;
+        flex-direction: row;
+    }
+    .desk-nav-login{
+        display: flex;
+        margin-right: 16px;
+        align-items: center;
+        background-color: #ffff;
+        min-height: 36px;
+        border-radius: 500px;
+       
+       
+    }
+    .desk-nav-login p{
+        display: flex;
+        padding: 8px 12px;
+        font-size: 14px;
+        font-family: uber-move;
+        line-height: 16px;
+        font-weight: 600;
+        color: #000000;
+    }
+    .desk-nav-signup p{
+        display: flex;
+        align-items: center;
+        padding: 8px 12px;
+        background-color:black;
+        min-height: 36px;
+        border-radius: 500px;
+        color: white;
+        font-size: 14px;
+        font-family: uber-move;
+        line-height: 16px;
+        font-weight: 600;
+       
+    }
+
+    .desk-content-center{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        padding: 0px 40px;
+        margin-top: 3px;
+    }
+    .order-near-txt p{
+        font-size: 52px;
+        font-family: uber-wolf;
+        margin-bottom: 40px;
+        font-weight: 700;
+        line-height: 64px;
+    }
+    .desk-content-enter{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+        width: 100%;
+    }
+    .enter-delivery-address{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #ffff;
+        padding: 16px 282px 16px 16px;
+        gap: 16px;
+    }
+    .location-logo{
+        display: flex;
+        align-items: center;
+    }
+    .enter-delivery-txt p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        font-family: uber-move;
+        line-height: 24px;
+        color: #000000;
+    }
+   
+    .deliver-now-content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        background-color: #ffff;
+        padding: 16px 12px 16px 15px;
+
+    }
+
+    .timer-logo{
+        display: flex;
+    }
+
+    .search-here-content{
+        display: flex;
+        align-items: center;
+        background-color: black;
+        padding: 12px 16px;
+        color: #fff;
+        border-radius: 8px;
+        min-height: 56px;
+        
+    }
+
+    .search-here-content p{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        font-family: uber-move;
+        color: white;
+    }
+
+    .deliver-now-txt p{
+       font-size: 16px;
+       font-family: uber-move;
+       font-weight: 600;
+       line-height: 20px;
+       color: #000000;
+    }
+
+    .delivery-dropdown{
+        display: flex;
+        align-items: center;
+    }
+
+    .or-sign-in{
+        display: flex;
+        margin-top: 24px;
+    }
+    .or-sign-in p{
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 600;
+        font-family: uber-move;
+    }
+    .deliver-dropdown{
+        display: flex;
+        align-items: center;
+    }
+
+    /*-------------------------IMAGE-SECTION------------------------*/
+
+    .main-image-section{
+        display: flex;
+        flex-direction: row;
+    }
+    .middle-section{
+        display: none;
+    }
+     
+    .empty-map{
+        height: 80px;
+    }
+    .map-section{
+        padding: 16px 40px;
+    }
+    .cities-txt{
+        padding: 0px 40px;
+    }
+    .cities-txt h2{
+        font-size: 36px;
+    }
+    .town-section{
+        padding: 0px 40px;
+    }
+    .country-section{
+        padding: 0px 40px;
+    }
+    .countries{
+        grid-template-columns: repeat(4,1fr);
+    }
+    .main-footer-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .main-get-help{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .footer-section{
+        padding: 72px 40px 88px;
+    }
+    .main-social-media{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .main-uber-logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    /*----------------------------FOOTER-SECTION-------------------------------*/
+
+    .privacy-policy{
+        display: flex;
+        flex-flow: wrap;
+    }
+
+}
+
