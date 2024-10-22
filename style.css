@@ -415,6 +415,12 @@
     width: 135px;
     height: 40px;
 }
+.txt-town{
+    display: none;
+}
+.txt-countries{
+    display: none;
+}
 
 
 /*-----------------------MEDIA-QUERY--------------------------*/
@@ -729,6 +735,12 @@
         margin-right: 17px;
         margin-left: -1px;
         margin-top: 1px;
+    }
+    .txt-town{
+        display: flex;
+    }
+    .txt-countries{
+        display: flex;
     }
 
 }
